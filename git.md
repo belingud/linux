@@ -1,6 +1,5 @@
 #  git
 ## 1.git简介
-![image](git.png)
 - workspace 工作区
 - index 暂存区
 - repository 本地版本库
