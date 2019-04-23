@@ -1,6 +1,6 @@
 # Linux 第二天  markdown  
 
-## 回顾  
+
 
 ```shell
 
@@ -70,7 +70,7 @@ cd 后面什么都不写 会进入当前用户的家目录
 
 
 
-## Linux 查看帮助文件   重点  
+## Linux 查看帮助文件   重点
 
 ```shell
 命令 --help  
