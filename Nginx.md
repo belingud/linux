@@ -93,14 +93,6 @@ epoll
 4. 通过插件（mod_secdownload）可实现文件URL地址加密（优点）。
 5. 社区不活跃，市场份额较低。
 
-**图说三个服务器的性能对比**
-
-![对比](http://wenku.baidu.com/content/38b81d255fbfc77da369b13c?m=677eb0dc3e26a59492c4441651619924&type=pic&src=5dd71ac83defc33aec5890bf2a3391d6.jpg)
-
-## 4. 为什么nginx处理并发能力更强？
-
-![并发对比](http://wenku.baidu.com/content/38b81d255fbfc77da369b13c?m=677eb0dc3e26a59492c4441651619924&type=pic&src=04aef6ab446c3a8206bdb42bfa270dd8.jpg)
-
 
 
  ## 5. 如何选择web服务器？
