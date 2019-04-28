@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局属性</title>
+    <style>
+        .c1{
+           font-size:50px;
+        }
+
+    </style>
+</head>
+<body>
+<b>全局属性：每一个标签都有的属性：</b>
+<p  id="p1"  class="c1">
+    id  class  name  style <br>
+    id  js使用 <br>
+    class style   css使用 <br>
+    name   表单使用
+</p>
+</body>
+</html>
+<script>
+    oP = document.getElementById('p1')
+    oP.onmouseover = function () {
+        this.style.backgroundColor = 'yellow'
+    }
+
+</script>
