@@ -139,7 +139,7 @@
     - 3.测试连接
 
         ~~~
-        ssh -T git@git.coding.net
+        ssh -T git@github.com
         
         python@ubuntu:~/.ssh$ ssh -T git@git.coding.net
         Warning: Permanently added the RSA host key for IP address '123.59.83.79' to the list of known hosts.
