@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*[class]{*/
+            /*height: 100px;*/
+            /*width: 200px;*/
+            /*background: tomato;*/
+        /*}*/
+        /*[type='text']{*/
+            /*background: red;*/
+        /*}*/
+        /*[class*='d2']{*/
+            /*background: yellow;*/
+        /*}*/
+        /*[class$="d3"]{*/
+            /*background: red;*/
+        /*}*/
+        [class^="d1"]{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<!--<div class=""></div>-->
+<!--<div style="height: 200px;background: red"></div>-->
+<!--<input type="text">-->
+<!--<input type="password">-->
+<!--<input type="password">-->
+<hr>
+<input type="text" class="d1 d2">
+<input type="text" class="d2 d3">
+<input type="text" class="d1  d3">
+</body>
+</html>

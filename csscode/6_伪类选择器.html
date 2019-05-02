@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style>
+        /*正常情况下超链接的样式*/
+        a:link{
+            color: tomato;
+        }
+        /*访问过后的样式*/
+        a:visited{
+            color: red;
+            /*font-size:60px;*/
+        }
+        /*鼠标停留在超链接上的样式*/
+        a:hover{
+            color: blue;
+            font-size: 50px;
+        }
+        /*点击超链接的样式*/
+        a:active{
+            color: purple;
+            font-size: 20px;
+        }
+
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        div:hover{
+            background: yellow;
+        }
+        ul li:first-child{
+            font-size: 40px;
+        }
+        ul li:last-child{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.baidu.com">百度</a>
+<ul>
+    <p></p>
+    <li>苹果</li>
+    <li>梨</li>
+    <li>波罗</li>
+    <span></span>
+</ul>
+<div></div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /*#d1{*/
+            /*background: yellow;*/
+        /*}*/
+        /*.c1{*/
+            /*background: purple;*/
+        /*}*/
+        /*div{*/
+            /*height: 300px;*/
+            /*background: red;*/
+        /*}*/
+        /*b{*/
+            /*font-weight: normal;*/
+        /*}*/
+
+
+        .c11{
+            height: 100px;
+            background: red;
+        }
+        /*
+        id   1000
+        class   100
+        标签     10
+
+        .c1 div div   100+10+10  120
+        .c1 .c11  100+100  =200
+        #d1 div div   1000+10+10 = 1020
+        */
+        #d1 div div{
+            background: orange;
+        }
+        .c1 div div{
+            height: 200px;
+            background: purple;
+            margin-top: 5px;
+        }
+        .c1 .c11{
+            background: green;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="d1" class="c1" style="background: gold">
+    <div>
+        <div class="c11"></div>
+        <div></div>
+    </div>
+</div>
+<b>hello</b>
+</body>
+</html>
