@@ -40,7 +40,7 @@
 
 - 将本地代码推送到远端托管服务器
 
-    - # https://github.com/landmarkcsl/bj1092
+    - # https://github.com/belingud/linux
 
     - git push <远程主机名> <本地分支名>:<远程分支名>  如果远程分支不存在，则创建
     - git push origin master   默认推送到主分支
@@ -113,7 +113,7 @@
 ## 问题
 - 忽略提交，在工作区中编写一个.gitignore文件，在文件中记录不需要提交的目录和文件
 
-- 如果克隆的时候出现了： unable to access 'https://git.coding.net/landmark/php1702.git/': error setting certificate 解决方式：
+- 如果克隆的时候出现了： unable to access 'https://git.coding.net/belingud/linux': error setting certificate 解决方式：
 
     - Git config --global http.sslVerify false 
 

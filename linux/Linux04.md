@@ -1,12 +1,9 @@
-## Linux 第4天  
-
 * 网络管理  
 * 进程管理  
 * 计划任务    
 * 打包压缩解压缩  
 * 软件安装  
 * 环境安装   
-
 
 
 ## centos 安装图形界面 
@@ -18,7 +15,6 @@ init 5
 
 命令界面 切换到 图形界面  ctrl+alt+F7  反之就是 Ctrl+alt+F1~F6
 ```
-
 
 
 ### 根据内容查找  
@@ -317,10 +313,6 @@ free -h 查看内存的使用情况
 * 读取引导分区 
 * 加载linux 内核  
 * 加载init进程  完成系统的初始化  init 6重启 init 0关机   centos 里边 init 5 （从命令行切换到图形界面）
-
-
-
-![runlevel](C:\Users\Victor\Desktop\day4\day4\doc\runlevel.png)
 
 
 
