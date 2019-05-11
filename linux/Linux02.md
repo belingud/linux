@@ -1,7 +1,5 @@
 # Linux 第二天  markdown  
 
-
-
 ```shell
 
 按下电源键 
@@ -228,7 +226,6 @@ history  列出带行号的每条命令
 ln -s 源文件  快捷方式的名字 
 例: ln -s /root r 
 lrwxrwxrwx   1 root  root      4 4月  16 14:40 r -> root
-
 ```
 
 ## 目录管理  os.path.join(os.path.dir(os.path.dir(__filename__),'image')
@@ -276,8 +273,6 @@ rm -rf 目录或者文件名字
 	r 递归删除
 	f 代表强制  
 ```
-
-
 
 ## 文件操作  
 

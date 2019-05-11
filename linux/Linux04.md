@@ -257,7 +257,7 @@ mount -a 表示 让挂载 立即生效
 
 ##  其它   了解 尽量熟练应用  
 
-1.uname    Ubuntu   
+1.uname    Ubuntu
 
 ```
 uname -r  显示内核版本号  
@@ -266,7 +266,7 @@ uname -a  系统的详细信息
 uname -v 操作系统的版本 
 ```
 
-2.hostname 
+2.hostname
 
 ```
 hostname 查看主机名显示主机名字

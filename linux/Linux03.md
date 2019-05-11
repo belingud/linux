@@ -160,7 +160,7 @@ usermod
 		-d 目录名  修改用户的家目录  
 		sudo usermod -d /新目录 用户名
 		-l 修改登录名 
-		sudo usermod -1 新用户名 制定的用户名
+		sudo usermod -1 新用户名 指定的用户名
 ```
 
 
@@ -205,7 +205,6 @@ tao taoge
 groupadd 组名
 groupdel 组名 #删除  如果这个组被用户当作主组来使用 那么不能删除 非得删除 必须得先删除用户 
 groupmod -n 新组名 原组名  
-
 ```
 
 
@@ -272,7 +271,7 @@ awk -F ':' '{(total=total+$3)};END{print total}' /etc/passwd # 对所有行的�
 
 # sort 排序 默认按照首字母进行排序
 
-```
+```shell
 cat /etc/passwd | sort  #首字母排序  
 -t #指定分隔符  
 -k #第几列  
@@ -356,7 +355,7 @@ caomei
 | l       | 光标向右移动一个位置   |
 | yy      | 复制一行               |
 | p       | 粘贴一行               |
-| nyy     | 复制10行               |
+| nyy     | 复制n行                |
 | np      | 粘贴n行                |
 | dd      | 删除一行               |
 | ndd     | 删除n行                |
